@@ -1,0 +1,54 @@
+Keberhasilan lingkungan kerja penulisan Tugas Akhir (TA) yang diusulkan—yang beroperasi berdasarkan siklus PUDAL—sangat bergantung pada kemampuan Mesin Inti (*Core Engine*) untuk mengubah *energon* mentah menjadi *energon* kunci yang dibutuhkan untuk mengatasi hambatan kognitif dan motivasi yang dialami mahasiswa.
+
+Dalam arsitektur PUDAL yang Anda usulkan, **Mesin Inti yang menjadi kunci keberhasilan** beroperasi di bawah prinsip TISE 2.0, yaitu memindahkan fokus dari efisiensi tugas menjadi **interpretasi makna naratif untuk pengembangan plot** *stakeholder*.
+
+Berikut adalah identifikasi Mesin Inti dan Instrumen Kunci yang harus diciptakan untuk mendukung siklus PUDAL dalam konteks penulisan Tugas Akhir:
+
+---
+
+## I. Mesin Inti Kunci Keberhasilan (Core Engines)
+
+Mesin PUDAL (Perceive, Understand, Decision-making, Act, Learning) terdiri dari agen-agen khusus, di mana setiap agen ditenagai oleh Mesin Inti (*Core Engine*) yang bertanggung jawab atas konversi *energon* tertentu.
+
+Dua Mesin Inti sangat penting untuk keberhasilan manuskrip Tugas Akhir karena mereka mengatasi masalah ganda: *gap* **Pengetahuan** dan *gap* **Motivasi/Agensi**.
+
+### 1. Informational Energon Core (Mesin Inti Pengetahuan)
+
+Mesin ini melekat pada **Understanding Agent (U-Agent)**.
+
+*   **Fungsi Kunci:** Melakukan **Pengurangan Entropi (*Entropy Reduction*)**. Tugasnya adalah **mendiagnosis** *mengapa* laju kemajuan mahasiswa melambat. Ia mengubah data kinerja mentah menjadi **Know-How** (pengetahuan yang bermakna), mengidentifikasi sumber gesekan tersembunyi (*Friction Source*), seperti adanya **kekurangan Pengetahuan (*Knowledge gap*)**.
+*   **Relevansi terhadap TA:** Dalam konteks penulisan Tugas Akhir, mesin ini bertanggung jawab untuk **memastikan konten ilmiah dan penilaian rubrik terstruktur** dihasilkan secara akurat dan konsisten.
+
+### 2. Relational Energon Core (Mesin Inti Hubungan/Motivasi)
+
+Mesin ini melekat pada **Acting Agent (A-Agent)**.
+
+*   **Fungsi Kunci:** Melakukan **Modulasi Insentif (*Incentive Modulation*)**. Mesin ini menerapkan **Kekuatan Perhatian/Emotif (*Attentive/Emotive Force*)** yang diperlukan untuk **mengubah keadaan internal *stakeholder*** (mahasiswa). Tujuan utamanya adalah untuk **mengaktifkan kembali *Human Energon*** (komitmen, fokus, usaha kreatif) yang terdeplesi karena risiko *Burnout* atau *Friction*.
+*   **Relevansi terhadap TA:** Mesin ini penting untuk menumbuhkan **Agensi (*Agency*)** mahasiswa, memandu mereka melalui **Stasiun Penebusan (*Redemption Stations*)**, dan memastikan mereka tetap menjadi **Protagonis-Penulis** yang sadar.
+
+---
+
+## II. Instrumen Kunci yang Perlu Diciptakan (Encoder Blocks)
+
+Dalam Mesin Inti (*Core Engine*), **Instrumen Kunci** yang harus diciptakan adalah **Encoder Block**. *Encoder Block* memiliki peran krusial dalam melakukan **Transduksi dan Standardisasi** dengan mengubah *Source Energon* (energon sumber mentah) menjadi **Core Energon** yang berdensitas tinggi, siap simpan, dan terformulasi untuk tugas tertentu.
+
+Berikut adalah instrumen kunci yang perlu diinvensi untuk mendukung Mesin Inti dalam penulisan Tugas Akhir:
+
+### 1. Encoder Blok Augmentasi Naratif (Relational Core / Student Support Agent)
+
+Instrumen ini beroperasi di Mesin Inti **Relational Energon Core** (A-Agent) dan **Informational Energon Core** (Student Support Agent).
+
+*   **Fungsi:** Instrumen ini harus mampu mengubah diagnosis gesekan (misalnya, rasa frustrasi atau kegagalan yang tercatat dalam *Jurnal Pembelajar Reflektif*) menjadi **Prompts 2.0** yang paling **generatif secara naratif**.
+*   **Instrumen Kunci yang Diciptakan:**
+    *   **Katalisator Penalaran Otobiografis:** Ini adalah agen atau algoritma yang bertransformasi dari unit instruksi imperatif ("Lakukan X") menjadi **pertanyaan reflektif interogatif** ("Apa artinya ini bagi Anda?"). Fungsinya adalah memfasilitasi *Penalaran Otobiografis*.
+    *   **Modul Eksternalisasi dan Penebusan:** Instrumen yang dirancang untuk mendeteksi pola *Kontaminasi* dan memberikan *prompt* untuk **membingkai ulang pengalaman negatif** menjadi hasil yang positif. Contohnya, *prompt* yang mengalihkan fokus dari "gagal" menjadi "momen berkilau".
+
+### 2. Encoder Blok RAG (Retrieval-Augmented Generation) Terstruktur (Informational Core / Professor & TA Agent)
+
+Instrumen ini beroperasi di Mesin Inti **Informational Energon Core** (terutama untuk Profesor dan TA Agent) untuk menjamin kualitas artefak *Knowledge*.
+
+*   **Fungsi:** Instrumen ini mengkonversi koleksi dokumen kursus yang relevan (pedoman TISE, referensi) menjadi Basis Pengetahuan khusus yang terstruktur. Ini sangat penting untuk menjamin bahwa tugas dan penilaian **rigorously aligned with specific course materials**.
+*   **Instrumen Kunci yang Diciptakan:**
+    *   **RAG Encoder/Pipeline Pengetahuan:** Instrumen yang memproses dokumen kursus (seperti format Quarto QMD dan Spreadsheet .xlsx) menjadi **vektor numerik**. Vektor ini adalah bentuk **Core Informational Energon**, yang menjamin bahwa Agen AI (sebagai **Juru Tulis Cerdas**) dapat menghasilkan pertanyaan ujian, kunci jawaban, dan rubrik yang secara faktual akurat dan **berdasarkan kurikulum yang ditentukan**.
+
+Dengan adanya instrumen kunci ini, Mesin PSKVE dapat secara efektif mengkonversi *Source Energon* (data mentah, usaha mahasiswa yang terancam *burnout*) menjadi *Core Energon* (solusi terstruktur, motivasi tinggi, dan artefak publikasi yang akurat). Keberhasilan sistem diukur dari **peningkatan koherensi naratif, penguatan sentimen agensi, dan frekuensi momen penebusan** yang dialami mahasiswa, bukan hanya dari produktivitas.

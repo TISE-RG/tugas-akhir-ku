@@ -1,0 +1,67 @@
+Usulan studi pustaka (*literature review*), riset fundamental, dan survei aplikasi/modul AI harus diarahkan untuk mendukung pengembangan lingkungan kerja Tugas Akhir (TA) yang cerdas, yang beroperasi berdasarkan kerangka **Mesin PSKVE** TISE dan paradigma **Ko-Kreasi Naratif TISE 2.0**.
+
+Riset dan studi pustaka ini secara khusus diperlukan untuk menjamin bahwa solusi yang dihasilkan (artefak rekayasa) bersifat **orisinal, *useful*, dan *comply* terhadap ketentuan**.
+
+Berikut adalah usulan riset dan studi pustaka yang terstruktur berdasarkan Lapisan Arsitektur TISE (Fundamental, Teknologi, Sistem, Aplikasi) dan kebutuhan fungsional Mesin PSKVE:
+
+---
+
+## A. Riset Fundamental dan Metodologis (Lapisan F dan T)
+
+Fokus utama riset di lapisan ini adalah menemukan **prinsip konversi *energon* baru** dan **mengembangkan Mesin Inti (*Core Engine*)** yang menjadi kunci keberhasilan pelayanan Mesin PSKVE.
+
+### 1. Riset Fundamental (F): Discovery Prinsip Konversi Energon
+
+Tujuan riset ini adalah untuk menemukan **prinsip fundamental** yang menjelaskan cara mengubah suatu bentuk *energon* (misalnya, *Source Energon* berupa data mentah) ke bentuk yang diinginkan (*Core Energon*) karena terdapat cara agar *energon* ini melakukan kerja.
+
+| Fokus Riset | Tujuan (*Discovery*) | Metodologi yang Diusulkan |
+| :--- | :--- | :--- |
+| **Penalaran Otobiografis dan Agensi** | Menemukan prinsip yang memodelkan dan mengukur bagaimana **Prompts 2.0** dapat menjadi **katalisator Penalaran Otobiografis**, mengubah sekuens *Kontaminasi* menjadi *Penebusan*. Prinsip yang dicari adalah cara mengkonversi *Service Energon* yang terdeplesi (*burnout*) menjadi *Relational Energon* (motivasi baru). | **PICOC Hipotesis Testing**. Menguji hipotesis yang berfokus pada **Peningkatan Agensi** dan **Koherensi Naratif**. |
+| **Pengurangan Entropi Pengetahuan** | Menemukan prinsip fundamental untuk mengoptimalkan **Encoder Block** Mesin Inti Informasional. Prinsip ini bertujuan meningkatkan efisiensi **Transduksi** data mentah (*Source Energon*) dari referensi repositori GitHub menjadi **Core Informational Energon** (pengetahuan terkompresi) yang akurat. | Riset pada pengembangan algoritma baru untuk **Pengurangan Ketidakpastian (*reduction of uncertainty*)** atau teknik *Compression* yang lebih efisien, dibandingkan dengan algoritma konvensional. |
+
+### 2. Riset Teknologi (T): Invensi Instrumen Kunci
+
+Setelah prinsip ditemukan, lapisan ini berfokus pada **invensi** Instrumen Kunci yang menyusun Mesin Inti (Encoder dan Decoder).
+
+*   **Fokus: *Encoder Block* RAG Cerdas:** Melakukan invensi pada teknik **Advanced Prompt Engineering** dan **Retrieval-Augmented Generation (RAG)** untuk Mesin Professor Agent dan TA Agent, yang berfungsi sebagai *Core Engine* Pengetahuan. Instrumen yang diinvensi harus mampu:
+    *   Menghasilkan **pertanyaan ujian, jawaban, dan rubrik yang *constrained* dan *structured*** (format JSON/terstruktur) dari materi kuliah spesifik.
+    *   Menggunakan **demonstrasi *few-shot*** yang beragam untuk menyesuaikan Agen AI dengan gaya penilaian dosen dan mencegah bias algoritmik.
+*   **Fokus: *Student Support Agent* sebagai Mesin *Scaffolding***: Melakukan invensi agen AI yang mengimplementasikan **Instruksional Scaffolding**. Instrumen ini harus mampu secara cerdas memilih strategi *scaffolding* (misalnya, *Ask Curiosity-Driven Questions*, *Break Down the Task*) berdasarkan kemajuan mahasiswa.
+
+## B. Studi Pustaka dan Survey Teknologi (Document Processing & Modules)
+
+Studi pustaka dalam domain ini harus berfokus pada **pengetahuan aplikatif** yang menjembatani interaksi manusia sosial dengan alam, khususnya yang berkaitan dengan struktur *Knowledge* (K) dalam Mesin PSKVE dan alat yang direkomendasikan.
+
+### 1. Survey Aplikasi Pemrosesan Dokumen dan Kolaborasi
+
+*   **Format Penulisan TISE:** Studi pustaka harus mengkaji workflow penulisan menggunakan format **Quarto QMD, Spreadsheet .xlsx, dan Latex** untuk memastikan *comply* dengan tuntutan editorial (Fase 3).
+*   **Kolaborasi dan *Version Control*:** Mengkaji praktik terbaik penggunaan **Git/GitHub** untuk penulisan karya ilmiah. Git/GitHub dianjurkan untuk **melacak progres dan riwayat pembelajaran yang granular dan tidak dapat diubah**, yang sangat relevan untuk **Jurnal Pembelajar Reflektif** mahasiswa.
+*   ***Spreadsheet*** **(.xlsx) untuk Metadata:** Menganalisis bagaimana format *spreadsheet* dapat digunakan untuk menyimpan **metadata terstruktur** (Judul, Nama penulis, dll.) yang kemudian digunakan oleh **Publisher Agent** untuk konversi otomatis dokumen Quarto ke LaTeX.
+
+### 2. Studi Pustaka Pedagogis: Artefak Pengetahuan (Knowledge Maps)
+
+Model pembelajaran VALORAIZE Learning yang terintegrasi dalam kerangka TISE mendorong pembentukan **artefak produk pengetahuan yang personal dan otentik**.
+
+*   **Peta Pengetahuan:** Studi harus mendalami tujuan dan komponen Peta Pengetahuan, khususnya:
+    *   **Peta Pengetahuan Primitif:** Untuk mengorganisir **pengetahuan deklaratif** (*fakta dan definisi*) yang menguji Level 1-2 Taksonomi Bloom.
+    *   **Peta Pemecahan Masalah (*Problem-Solving Knowledge Map*):** Bersifat **dinamis dan berorientasi proses**, berfokus pada *bagaimana* pemecahan masalah (Level 3-6 Bloom).
+*   **Kendaraan dan Rute Pemecahan Masalah:** Mengkaji konsep **Kendaraan (*Vehicles*)** dalam Peta Pemecahan Masalah (misalnya, Kendaraan Matematika, Visualisasi, Komputasi) dan **Heuristik** (*meta-kendaraan* strategis) yang digunakan untuk melintasi celah antara Titik Mulai dan Titik Akhir masalah.
+
+## C. Survey Aplikasi dan Modul AI (Sistem Multi-Agen)
+
+Survei ini harus berfokus pada **Lapisan Teknologi dan Sistem**, yang menentukan bagaimana Kecerdasan Buatan (*Artificial Intelligence* - AI) akan berinteraksi secara sinergis dengan kecerdasan manusia (NI) dalam Mesin PUDAL.
+
+### 1. Survey Kerangka Kerja Multi-Agen (MAS Frameworks)
+
+Survei diperlukan untuk membenarkan penggunaan **arsitektur hibrida** yang diusulkan untuk lingkungan kerja TA.
+
+*   **AutoGen:** Mengkaji fitur utamanya (Multi-agent conversation) untuk implementasi **Student Support Agent** yang dinamis, *responsive*, dan mendukung skenario *human-in-the-loop* (HITL).
+*   **CrewAI atau LangGraph:** Mengkaji kerangka kerja yang berorientasi **proses, terstruktur, dan *stateful***. Salah satunya direkomendasikan untuk implementasi **Exam & Grading System** (Professor dan TA Agent) karena tugasnya merupakan *deterministic pipeline*.
+*   **Integrasi Lokal (Ollama):** Mengkaji secara teknis bagaimana **Ollama** diintegrasikan sebagai *local LLM endpoint* untuk memastikan pengendalian model dan data, serta mengkaji integrasinya dengan kerangka kerja di atas (AutoGen, LangGraph).
+
+### 2. Studi Pustaka Teknik AI Kunci
+
+*   **Retrieval-Augmented Generation (RAG):** Mengkaji RAG sebagai instrumen kunci untuk **content grounding**. RAG pipeline penting untuk memastikan **Professor Agent** membuat pertanyaan ujian yang berasal *hanya* dari materi kursus spesifik.
+*   **Prompt Engineering Tingkat Lanjut:** Mengkaji teknik **Role-Playing, Few-Shot Prompting, dan Chain-of-Thought (CoT) Prompting**. Teknik ini digunakan untuk memandu model AI agar mengadopsi persona dosen (*Professor Agent*) dan memaksa penalaran pedagogis sebelum menghasilkan soal.
+*   **Instruksional Scaffolding:** Studi mendalam terhadap teori dan implementasi **instruksional *scaffolding***. Agen harus dirancang agar *output* utamanya adalah **pertanyaan, bukan pernyataan**, untuk mendorong **Agensi Siswa (*Student Agency*)**. Strategi yang diusulkan, seperti *Ask Curiosity-Driven Questions* dan *Break Down the Task*, harus divalidasi melalui studi.
+*   **Synergistic Practical Intelligence (PI-A):** Mengkaji PI-A TISE 2.0 yang mencakup kompetensi seperti **Systematic Synthesis** dan **Possibility Simulation**. Studi ini relevan untuk memahami bagaimana AI bertindak sebagai **Applicative Knowledge Engine** yang mengaugmentasi kecerdasan praktis mahasiswa dalam pemecahan masalah tugas akhir.

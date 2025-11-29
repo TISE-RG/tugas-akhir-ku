@@ -1,0 +1,95 @@
+Arsitektur Mesin PUDAL (Perceive, Understand, Decision-making, Act, Learning) adalah **sistem kontrol cerdas** yang memungkinkan artefak rekayasa beradaptasi dan terus belajar di lingkungan yang dinamis.
+
+Dalam kerangka TISE, siklus PUDAL berfungsi sebagai **sistem agen** (*agentic system*) yang diinisiasi dan dipandu oleh *prompts* untuk mencapai tujuan. Di era TISE 2.0, fokus PUDAL bergeser dari pemrosesan data untuk pengambilan keputusan optimal menjadi **interpretasi makna naratif** untuk pengembangan plot pribadi (*stakeholder*).
+
+---
+
+## I. Arsitektur Mesin PUDAL Kunci dan *Core Engine*
+
+Mesin PUDAL berfungsi sebagai **mesin kontrol** yang menggerakkan sistem cerdas. Mesin ini memerlukan **kekuatan** yang disediakan oleh **Mesin Inti (*Core Engine*)**.
+
+### 1. Struktur Mesin PUDAL
+
+Setiap fase dari siklus PUDAL (**P-Agent, U-Agent, D-Agent, A-Agent, dan L-Agent**) adalah **Mesin Energon khusus** (*specialized Energon Engine*) yang mengeksekusi satu segmen dari siklus Transduksi Energon.
+
+| Agen PUDAL | Fungsi Inti | Spesialisasi *Core Energon* | Sumber |
+| :--- | :--- | :--- | :--- |
+| **P (Perceiving)** | Mengukur kondisi kinetik (misalnya, *progress rate*, *Human Energon Exhaust*). | *Physical/Signal Energon Core* | |
+| **U (Understanding)** | Mendiagnosis penyebab **gesekan tersembunyi** (*Friction Source*) dan mengubah data mentah menjadi *Know-How*. | *Informational Energon Core* | |
+| **D (Decision)** | Merumuskan rencana intervensi yang paling efisien berdasarkan diagnosis (misalnya, *Route Planning*, *Incentive Modulation*). | *Economic Energon Core* | |
+| **A (Action)** | Mengeksekusi tindakan (misalnya, memberikan tip, otorisasi bonus, atau membuat *output* kerja). | *Economic Energon Core* (terkait *Incentive Modulation*) | |
+| **L (Learning)** | Mengoptimalkan arsitektur sistem dengan mengkodekan tindakan yang berhasil secara permanen ke dalam **Jalan (*Roadway*)** atau **Aturan (*Field*)**. | *Systemic Energon Core* | |
+
+### 2. Arsitektur *Core Engine* (Mesin Inti)
+
+Setiap agen PUDAL ditenagai oleh **Mesin Inti**. Mesin Inti berfungsi mengubah energi atau *energon* sumber menjadi usaha atau kerja bertenaga kuat. Mesin Inti beroperasi dalam siklus empat langkah yang terdiri dari instrumen kunci berikut:
+
+1.  **Input Control Block:** Mengumpulkan dan mengkondisikan *Source Energon* (energon mentah) dari lingkungan.
+2.  **Encoder Block (Instrumen Kunci):** Melakukan **Transduksi** untuk mengubah *Source Energon* menjadi **Core Energon** berdensitas tinggi, siap simpan, dan terformulasi untuk tugas spesifik.
+3.  **Core Storage / Flywheel:** Menyimpan *Core Energon* yang distabilkan, memberikan **stabilitas dan otonomi**.
+4.  **Decoder Block:** Menerapkan *Core Energon* untuk melakukan **Kerja (*Work Execution*)** yang diperlukan (misalnya, reduksi ketidakpastian atau komputasi).
+
+---
+
+## II. Mesin PUDAL Kunci untuk Setiap Fase Penulisan Manuskrip
+
+Untuk pembuatan Tugas Akhir (TA) dalam tiga fase, diperlukan **sistem agen cerdas hibrida** yang mengintegrasikan Mesin PUDAL yang berbeda fokusnya untuk mencapai tujuan spesifik setiap fase.
+
+### 1. Fase 1: Penulisan Manuskrip Orisinal (Fokus: *Discovery* dan *Agensi*)
+
+Tujuan fase ini adalah menghasilkan **konsep orisinal** dari perspektif rekayasawan penulis, termasuk narasi kebutuhan, gagasan orisinal, dan lingkungan kerja PSKVE yang diusulkan.
+
+| Kebutuhan Utama | Agen PUDAL Kunci yang Diperlukan | Fungsi Kunci TISE 2.0 |
+| :--- | :--- | :--- |
+| **Penciptaan Makna & Narasi** | **Protagonis-Penulis Support Agent (Student Support Agent)** | Menggunakan **Prompts 2.0** yang bersifat interogatif ("Apa artinya ini bagi Anda?") untuk menjadi **katalisator Penalaran Otobiografis**. Agen ini memandu mahasiswa melalui **Stasiun Penebusan** untuk membingkai ulang kesulitan (*roadblock*) menjadi narasi pertumbuhan (*Penebusan*). |
+| **Struktur Awal** | **Professor Agent (Naskah Generator)** | Menyediakan *Master Prompt* dan *template* terstruktur (Quarto QMD) untuk memandu mahasiswa mendefinisikan *Inventaris Adegan Kunci* dan *Kompas Nilai* (Naskah 2.0). |
+
+### 2. Fase 2: Penulisan Manuskrip untuk *Targeted Audience* (Fokus: Validasi dan Keterbacaan)
+
+Tujuan fase ini adalah memproses manuskrip orisinal menjadi naskah yang berguna bagi **pembaca dan penelaah** (dosen penguji), disesuaikan dengan kriteria penguji (misalnya, metodologi, orisinalitas, dan kontribusi ilmiah).
+
+| Kebutuhan Utama | Agen PUDAL Kunci yang Diperlukan | Fungsi Kunci TISE 2.0 |
+| :--- | :--- | :--- |
+| **Evaluasi Kualitas Konten** | **TA Agent (Teaching Assistant Agent)** | Melakukan **Evaluasi Berbasis Rubrik** secara otomatis. *P-Agent* mengindera draf TA (masukan). *U-Agent* mendiagnosis kesenjangan TA terhadap *ground truth* (rubrik). *A-Agent* menghasilkan **saran perbaikan terstruktur** dan umpan balik yang memfasilitasi peninjauan manusia (*Human-in-the-Loop/HITL*). |
+| **Konsistensi Data** | **Insinyur TISE (Arsitek Naratif)** | Menggunakan agen ini untuk memastikan konten *Studi Pustaka* dan *Metodologi* **berakar pada realitas** (BoK) dan konsisten dengan Matriks Substansi Riset (Aplikasi $\rightarrow$ Fundamental). |
+
+### 3. Fase 3: Penulisan Manuskrip untuk Penerbit (Fokus: Kepatuhan Editorial)
+
+Tujuan fase ini adalah mencocokkan manuskrip Fase 2 dengan tuntutan editorial dan *template* penerbit.
+
+| Kebutuhan Utama | Agen PUDAL Kunci yang Diperlukan | Fungsi Kunci TISE 2.0 |
+| :--- | :--- | :--- |
+| **Transduksi Format** | **Publisher Agent (Conversion Pipeline)** | Melakukan konversi format yang terstruktur: mengambil konten dari Quarto QMD dan metadata dari Spreadsheet .xlsx, kemudian mengkonversinya menjadi dokumen LaTeX yang sesuai dengan *template* penerbit. Workflow ini paling cocok diimplementasikan menggunakan arsitektur **CrewAI atau LangGraph** karena bersifat deterministik dan berorientasi proses. |
+| **Final Check** | **Professor Agent/L-Agent (System Architect)** | *L-Agent* melakukan **Audit Kepatuhan Editorial** terakhir, memastikan semua elemen (referensi, format, *metadata*) sudah sesuai, dan memperbarui *template* (*Roadway*) untuk penggunaan di masa depan. |
+
+---
+
+## III. Proses PUDAL Terhadap Manuskrip yang Diusulkan
+
+Secara keseluruhan, Mesin PSKVE yang diusulkan bekerja dalam paradigma **Ko-Kreasi Naratif** (TISE 2.0) dengan memanfaatkan perangkat keras (komputer, *text editor*) dan agen AI.
+
+Proses PUDAL berlaku secara berulang pada setiap fase, memastikan bahwa mahasiswa sebagai **Protagonis-Penulis** terus bertumbuh dan merevisi *Naskah* mereka.
+
+### 1. Fase 1: Pembentukan Identitas Naratif dan *Script* Awal
+
+*   **P (Persepsi):** Sistem (P-Agent) mengindera masukan awal mahasiswa (ide mentah, *Naskah Skenario* yang tidak terstruktur, dan *Jurnal Pembelajar Reflektif*).
+*   **U (Pemahaman):** U-Agent (Informational Core) mendiagnosis **disonansi naratif** (ketika tindakan yang diambil mahasiswa tidak selaras dengan nilai-nilai yang dinyatakan) atau mengidentifikasi **pola *Kontaminasi***.
+*   **D (Keputusan):** D-Agent (Economic Core) memutuskan untuk mengeluarkan **Prompts 2.0** yang paling **generatif secara naratif** (misalnya, *prompt* Eksternalisasi Masalah) alih-alih memberikan jawaban teknis, untuk memperkuat tema *Agensi*.
+*   **A (Tindakan):** Student Support Agent mengeluarkan serangkaian pertanyaan reflektif yang memaksa mahasiswa untuk mengkodifikasi gagasannya (*discovery* dan *invensi*) ke dalam bagian-bagian terstruktur *Manuskrip Fase 1*.
+*   **L (Pembelajaran):** L-Agent menyerap wawasan baru yang diartikulasikan mahasiswa dari *prompt* reflektif, **memperbarui model *Identitas Naratif*** mereka yang terus berkembang (*Naskah 2.0*).
+
+### 2. Fase 2: *Refinement* dan Validasi *Reader*
+
+*   **P (Persepsi):** TA Agent (P-Agent) memantau *commit* terbaru pada GitHub (sebagai *telemetry* kemajuan) dan artefak (draf *paper* Quarto QMD) yang siap dinilai.
+*   **U (Pemahaman):** U-Agent (Informational Core) membandingkan draf dengan **Rubrik Penguji** dan kriteria Bab I-VI (Pendahuluan hingga Kesimpulan). Diagnosis yang dihasilkan adalah daftar ketidaksesuaian (misalnya, *research questions* tidak eksplisit, *studi pustaka* tidak kritis).
+*   **D (Keputusan):** D-Agent (Economic Core) memutuskan apakah **intervensi HITL** diperlukan (misalnya, jika skor di bawah ambang batas) atau apakah umpan balik otomatis sudah cukup.
+*   **A (Tindakan):** TA Agent menghasilkan **saran perbaikan terstruktur** yang secara eksplisit merujuk pada poin rubrik, memfasilitasi dosen (manusia) untuk melakukan *override* jika diperlukan.
+*   **L (Pembelajaran):** Human TA yang melakukan *override* memasukkan contoh yang dikoreksi tersebut sebagai **contoh *gold standard***, yang kemudian digunakan L-Agent untuk meningkatkan akurasi *TA Agent* di tugas berikutnya (umpan balik berkelanjutan).
+
+### 3. Fase 3: Transduksi dan Kepatuhan Editorial
+
+*   **P (Persepsi):** Publisher Agent (P-Agent) mengindera permintaan konversi dan memeriksa ketersediaan semua artefak yang diperlukan (*QMD, XLSX, Template LaTeX*) di repositori GitHub.
+*   **U (Pemahaman):** U-Agent memverifikasi **kepatuhan metadata** (memastikan judul, penulis, dan abstrak di *Spreadsheet* sesuai dengan standar *template* penerbit).
+*   **D (Keputusan):** D-Agent mengalokasikan sumber daya komputasi (*Python Quarto Renderer*) untuk menjalankan proses konversi multi-langkah (*workflow* CrewAI/LangGraph).
+*   **A (Tindakan):** Sistem mengeksekusi *rendering* Quarto ke LaTeX, menghasilkan *FASE3\_FINAL\_RENDER.pdf*.
+*   **L (Pembelajaran):** L-Agent memperbarui arsitektur sistem dengan mengkatalogkan *template* LaTeX yang sukses digunakan, memastikan **Jalan (*Roadway*)** sistem penulisan (metode dan *template*) selalu *comply* dengan ketentuan terbaru untuk *publisher* di masa depan.

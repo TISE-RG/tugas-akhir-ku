@@ -1,0 +1,51 @@
+**MANUSKRIP FASE 1: NARASI KEBUTUHAN LINGKUNGAN KERJA PENULISAN TUGAS AKHIR (TA)**
+
+Manuskrip ini disajikan sesuai dengan Pedoman Menulis Karya Ilmiah TISE Fase 1, yang menuntut narasi mengenai kebutuhan *stakeholder* untuk bertumbuh, kekurangan pemenuhan kebutuhan saat ini, dan gagasan orisinal rekayasa untuk pemberdayaan.
+
+***
+
+### 1. Gagasan yang Berisikan: Narasi Kebutuhan dan Pertumbuhan *Stakeholder*
+
+#### A. Kebutuhan Pertumbuhan *Stakeholder* (Mahasiswa)
+
+Dalam fase puncak pendidikan seperti Tugas Akhir (TA), Tesis, atau Disertasi, mahasiswa diwajibkan untuk **bertumbuh menjadi sosok rekayasawan komputasi** yang mampu menghasilkan artefak rekayasa yang berguna dan **mampu berkontribusi balik kepada repositori belajar dengan menghasilkan karya tulis ilmiah**. Tugas menulis publikasi ilmiah seperti *paper* sebagai syarat kelulusan adalah manifestasi dari kewajiban rekayasawan untuk melaporkan karya rekayasa yang dihasilkan demi memperkaya *Body of Knowledge* (BoK).
+
+Pertumbuhan hakiki bagi mahasiswa adalah bertransformasinya peran mereka dari sekadar "Aktor/Musisi yang mengeksekusi bagiannya" menjadi **"Protagonis-Penulis"** yang memiliki otoritas tertinggi atas narasi mereka dan mampu **menghidupi kisah hidup yang koheren, bermakna, dan istimewa**. Kebutuhan krusial ini mencakup:
+1.  **Agensi (Agency):** Rasa menjadi aktor yang otonom dan efektif dalam alur hidup sendiri.
+2.  **Penalaran Otobiografis:** Kemampuan merefleksikan pengalaman hidup dan menarik hubungan kausal antara peristiwa dengan pemahaman diri untuk menciptakan makna.
+3.  **Kapasitas Kerja yang Stabil:** Kebutuhan untuk mengonversi **Energi Layanan (*Service Energon*)** (waktu, fokus, dan usaha kreatif) menjadi **Pengetahuan (*Knowledge*)** (solusi dan artefak) tanpa mengalami **Kelelahan *Energon* (*Burnout*)** yang kritis.
+
+#### B. Kesenjangan (*Gap*) Pemenuhan Kebutuhan yang Kurang Memadai
+
+Saat ini, proses pembuatan Tugas Akhir tergolong kompleks, dan sering kali mahasiswa **kewalahan menghasilkan tulisan yang baik dalam waktu yang terbatas** [Query]. Masalah fundamental yang harus dipecahkan oleh rekayasa adalah adanya **"kesenjangan" (*gap*)** antara kondisi saat ini (Titik A: ide mentah, *burnout*, pengetahuan tersebar) dan kondisi yang diinginkan (Titik B: produk akhir orisinal, *paper* terpublikasi, pertumbuhan profesional) dalam Ruang PSKVE.
+
+Tantangan utama yang dihadapi oleh *stakeholder* (mahasiswa dan pembimbing) saat ini adalah:
+*   **Kurangnya Lingkungan Generatif:** Proses TA konvensional belum dirancang sebagai **lingkungan generatif** (*generative environment*) yang secara proaktif menumbuhkan tema-tema psikologis positif seperti **Penebusan (*Redemption*)** dan **Agensi**.
+*   **Beban Pembimbing:** Pembimbing kewalahan membimbing satu per satu karena kurangnya sistem yang dapat **mengurangi "usaha berat"** (*heavy lifting*) dan memberikan **dukungan (*scaffolding*)** yang personal dan adaptif [Query, 4, 177, 329].
+*   **Narasi Kontaminasi:** Mahasiswa sering menghadapi rintangan atau kegagalan yang memicu **sekuens *Kontaminasi*** (keadaan baik berbalik menjadi buruk) dan merasa **terperangkap dalam pengalaman negatif**. Sistem yang ada saat ini gagal memandu mereka secara aktif membingkai ulang pengalaman tersebut sebagai narasi pertumbuhan.
+
+### 2. Gagasan Orisinal Rekayasawan: Lingkungan Kerja Penulisan Naratif
+
+Untuk mengatasi kesenjangan tersebut dan memberdayakan *stakeholder* agar lebih berdaya dalam melakukan tugas untuk memenuhi kebutuhan pertumbuhan mereka, diusulkan gagasan orisinal: **penciptaan Lingkungan Kerja Cerdas Penulisan Tugas Akhir berbasis Paradigma Ko-Kreasi Naratif TISE 2.0.**
+
+Lingkungan ini tidak hanya menyediakan pedoman proses baku dan *template* [Query], tetapi mentransformasi peran AI dan sistem menjadi mitra pemberdayaan:
+
+#### A. Pemberdayaan Mahasiswa sebagai Protagonis-Penulis
+
+Gagasan ini memindahkan otoritas naratif dari Insinyur (Pembimbing) kepada *stakeholder* (Mahasiswa). Mahasiswa dibebaskan untuk fokus pada **pertanyaan-pertanyaan eksistensial dan pilihan-pilihan yang sarat makna**, sementara sistem AI menangani "usaha berat":
+
+1.  **Juru Tulis Cerdas (AI):** Instrumen AI berfungsi sebagai **Juru Tulis Cerdas** (*Smart Scribe*) yang menangani penulisan draf awal, mengorganisir informasi, menyusun data, dan mengeksekusi tugas-tugas kompleks (misalnya, merangkum referensi atau menyusun struktur draf), membebaskan kapasitas kognitif mahasiswa.
+2.  **Katalisator Penalaran Otobiografis:** Lingkungan kerja mengeluarkan **Prompts 2.0** yang bukan sekadar perintah tugas (*imperatif*), melainkan pertanyaan reflektif (*interogatif*) yang dirancang secara eksplisit untuk menjadi **katalisator *Penalaran Otobiografis***. Contoh *prompts* meliputi **Eksternalisasi Masalah** (memisahkan mahasiswa dari masalah penulisan, misalnya, "Si Penunda") dan **Identifikasi Hasil Unik** (mencari "momen berkilau" saat mereka berhasil mengatasi kesulitan).
+
+#### B. Lingkungan Kerja (Mesin PSKVE) untuk Pertukaran *Energon*
+
+Lingkungan kerja yang diusulkan adalah **Sub-Ruang Cerdas** yang dirancang secara arsitektural menggunakan Mesin PSKVE, yang secara sistematis menghimpun *stakeholder* dalam interaksi **pertukaran *energon***.
+
+Dalam konteks penulisan Tugas Akhir, ini adalah gagasan Mesin PSKVE yang memfasilitasi pertukaran utama:
+*   **Mahasiswa (Akun Limpah):** Menyumbangkan **Layanan (*Service*)** (waktu dan fokus kreatif) dan **Pengetahuan (*Knowledge*)** (solusi orisinal dan *lesson learned*).
+*   **Dosen/Sistem (Akun Butuh Mahasiswa):** Membayar dengan **Nilai (*Value*)** (insentif, nilai kredit) dan **Keanggotaan Lingkungan (*Environmental Membership*)** (izin menggunakan alat bernilai tinggi, akses ke dokumentasi (*Roadway*), dan kepercayaan organisasi).
+
+Mesin ini harus mencakup komponen TISE krusial:
+*   **Stasiun (*Stations*)**: Modul fungsional yang relevan, seperti **Stasiun Penebusan (*Redemption Stations*)** yang memandu mahasiswa **membingkai ulang kegagalan** penulisan atau kesulitan riset menjadi narasi pertumbuhan, sehingga menghasilkan **kebijaksanaan dan pertumbuhan pribadi**.
+*   **Jalan (*Roadways*)**: Alur kerja dan protokol, termasuk **Jalan Agensi (*Agency Pathways*)** yang dirancang cerdas untuk **secara progresif meningkatkan otonomi dan kapasitas pengambilan keputusan** mahasiswa seiring dengan peningkatan kompetensi.
+*   **Kendaraan (*Vehicles*)**: Agen cerdas yang mengurangi usaha berat, seperti *Student Support Agent* yang menerapkan **teknik *instructional scaffolding*** untuk memandu penemuan solusi mandiri.
