@@ -1,0 +1,18 @@
+---
+title: Gagasan Original
+---
+
+## Narasi
+<include src="..06_narasi/manus_I_0.qmd" />
+
+## Rekayasa
+<include src="../05_rekayasa/manus_I_0.qmd" />
+
+## Inovasi
+<include src="../04_inovasi/manus_I_0.qmd" />
+
+## Invensi
+<include src="../03_ciptaan/manus_I_0.qmd" />
+
+## Penemuan
+<include src="../01S_studi/manus_I_0.qmd" />

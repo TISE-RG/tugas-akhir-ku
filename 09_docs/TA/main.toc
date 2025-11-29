@@ -1,7 +1,0 @@
-\babel@toc {bahasa}{}\relax 
-\contentsline {chapter}{Lembar Pengesahan}{i}{}%
-\contentsline {chapter}{Abstrak}{ii}{}%
-\contentsline {chapter}{Abstract}{iii}{}%
-\contentsline {chapter}{Kata Pengantar}{iv}{}%
-\contentsline {chapter}{\numberline {1}Pendahuluan}{1}{}%
-\contentsline {section}{\numberline {1.1}Latar Belakang}{1}{}%

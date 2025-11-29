@@ -1,0 +1,50 @@
+{
+  "00_bahan/index.qmd": {
+    "index.html": "88bc38f5"
+  },
+  "01_work/index.qmd": {
+    "index.html": "4cbd3e69"
+  },
+  "01_work/manus_I_0.qmd": {
+    "manus_I_0.html": "4f77d01b"
+  },
+  "02_studi/manus_I_0.qmd": {
+    "manus_I_0.html": "1395d78a"
+  },
+  "03_ciptaan/manus_I_0.qmd": {
+    "manus_I_0.html": "43381ad6"
+  },
+  "04_inovasi/manus_I_0.qmd": {
+    "manus_I_0.html": "6af44fb4"
+  },
+  "05_rekayasa/manus_I_0.qmd": {
+    "manus_I_0.html": "9465f5bb"
+  },
+  "06_narasi/manus_I_0.qmd": {
+    "manus_I_0.html": "1c57745a"
+  },
+  "09_docs/TA/content/abstrak-en.qmd": {
+    "abstrak-en.tex": "51b561bf"
+  },
+  "09_docs/TA/content/abstrak-id.qmd": {
+    "abstrak-id.tex": "f51f48f9"
+  },
+  "09_docs/TA/content/bab-1.qmd": {
+    "bab-1.tex": "b8b0af08"
+  },
+  "09_docs/TA/content/kata-pengantar.qmd": {
+    "kata-pengantar.tex": "b0aa9b38"
+  },
+  "about.qmd": {
+    "about.html": "afc696db"
+  },
+  "index.qmd": {
+    "index.html": "d9a18e71"
+  },
+  "manus_I_0.qmd": {
+    "manus_I_0.html": "d24dd643"
+  },
+  "manus_I.qmd": {
+    "manus_I.html": "00aeb6f3"
+  }
+}
