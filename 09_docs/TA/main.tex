@@ -1,0 +1,46 @@
+\documentclass[12pt, a4paper, oneside]{book}
+
+% --- Package Dasar ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}   % Font Times New Roman-like
+\usepackage[bahasa]{babel}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+
+% --- Setting Margin (Standar ITB) ---
+\geometry{
+    top=3cm,
+    bottom=3cm,
+    left=4cm,
+    right=3cm
+}
+\onehalfspacing % Spasi 1.5
+
+% --- Load Metadata ---
+\input{metadata}
+
+\begin{document}
+
+% --- Bagian Depan (Front Matter) ---
+\frontmatter
+\input{layout/frontmatter}
+
+% --- Bagian Isi (Main Content) ---
+\mainmatter
+
+% Contoh Bab 1 (Buat file content/bab1.tex)
+\chapter{Pendahuluan}
+% \input{content/bab1} % Aktifkan jika file sudah ada
+Tuliskan latar belakang masalah di sini.
+
+\section{Latar Belakang}
+Ini adalah sub-bab latar belakang.
+
+% --- Daftar Pustaka ---
+% \bibliographystyle{ieeetr}
+% \bibliography{references}
+
+\end{document}

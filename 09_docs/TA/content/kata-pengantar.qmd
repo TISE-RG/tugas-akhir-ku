@@ -1,0 +1,10 @@
+---
+format: latex
+---
+
+Puji syukur kepada Tuhan YME... Saya ingin berterima kasih kepada...
+
+
+Penelitian ini bertujuan untuk mengembangkan sistem kendali jarak jauh...
+
+Hasil pengujian menunjukkan bahwa **akurasi sistem mencapai 98%**. Metode yang digunakan berbasis pada *Artificial Intelligence* dengan algoritma CNN.

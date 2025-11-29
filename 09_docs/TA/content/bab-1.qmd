@@ -1,0 +1,11 @@
+---
+format: latex
+---
+
+# Latar Belakang
+
+Perkembangan teknologi saat ini sangat pesat. Sebagaimana dijelaskan oleh Einstein $E=mc^2$.
+
+## Rumusan Masalah
+1. Bagaimana merancang sistem?
+2. Bagaimana menguji sistem?    

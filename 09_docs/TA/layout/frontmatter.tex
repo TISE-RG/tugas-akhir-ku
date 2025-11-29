@@ -1,0 +1,79 @@
+% ==========================================================
+% FILE: layout/frontmatter.tex
+% DESKRIPSI: Mengatur tampilan bagian depan dokumen
+% ==========================================================
+
+% --- 1. COVER PAGE ---
+\begin{titlepage}
+    \centering
+    \vspace*{1cm}
+    {\Large \bfseries \MakeUppercase{\tipeDokumen}}\\[1.5cm]
+    
+    {\Large \bfseries \judulID}\\[0.5cm]
+    {\itshape \judulEN}\\[2cm]
+    
+    \includegraphics[width=3.5cm]{images/cover-ganesha.jpg}\\[2cm]
+    
+    {\large Oleh:}\\[0.5cm]
+    {\large \bfseries \namaPenulis}\\[0.2cm]
+    {\large NIM: \nim}\\[2cm]
+    
+    {\large \MakeUppercase{\programStudi}}\\[0.2cm]
+    {\large \MakeUppercase{\fakultas}}\\[0.2cm]
+    {\large \MakeUppercase{\institusi}}\\[0.2cm]
+    {\large \tahun}
+\end{titlepage}
+
+% --- 2. LEMBAR PENGESAHAN ---
+\newpage
+\thispagestyle{empty}
+\begin{center}
+    {\Large \bfseries LEMBAR PENGESAHAN}\\[1cm]
+    {\bfseries \judulID}\\[1cm]
+    
+    Oleh:\\[0.5cm]
+    {\bfseries \namaPenulis}\\
+    NIM: \nim\\[1.5cm]
+    
+    Menyetujui,\\[0.5cm]
+    Tim Pembimbing\\[1cm]
+    
+    \begin{tabular}{cc}
+        \multicolumn{2}{c}{Bandung, \tanggalSidang} \\[2cm]
+        \underline{\pembimbingSatu} & \underline{\pembimbingDua} \\
+        \nipPembimbingSatu & \nipPembimbingDua \\
+    \end{tabular}
+\end{center}
+\addcontentsline{toc}{chapter}{Lembar Pengesahan}
+
+% --- 3. ABSTRAK (INDONESIA) ---
+\newpage
+\chapter*{Abstrak}
+\addcontentsline{toc}{chapter}{Abstrak}
+\begin{center}
+    \textbf{\judulID}
+\end{center}
+\vspace{0.5cm}
+\input{content/abstrak-id}
+
+% --- 4. ABSTRACT (ENGLISH) ---
+\newpage
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\begin{center}
+    \textit{\textbf{\judulEN}}
+\end{center}
+\vspace{0.5cm}
+\input{content/abstrak-en}
+
+% --- 5. KATA PENGANTAR ---
+\newpage
+\chapter*{Kata Pengantar}
+\addcontentsline{toc}{chapter}{Kata Pengantar}
+\input{content/kata-pengantar}
+
+% --- 6. DAFTAR ISI ---
+\newpage
+\tableofcontents
+\listoffigures
+\listoftables   
