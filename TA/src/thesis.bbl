@@ -1,0 +1,117 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{nyt/global//global/global}
+  \entry{knuth2001art}{book}{}
+    \name{author}{1}{}{%
+      {{hash=KD}{%
+         family={Knuth},
+         familyi={K\bibinitperiod},
+         given={D.E.},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Addison-Wesley}%
+    }
+    \strng{namehash}{KD1}
+    \strng{fullhash}{KD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2001}
+    \field{labeldatesource}{}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{isbn}{9780201896831}
+    \field{number}{v. 1}
+    \field{series}{The Art of Computer Programming: Fundamental Algorithms}
+    \field{title}{The Art of Computer Programming: Fundamental Algorithms}
+    \field{year}{2001}
+  \endentry
+
+  \entry{leonard1991mobile}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LJJ}{%
+         family={Leonard},
+         familyi={L\bibinitperiod},
+         given={John\bibnamedelima J},
+         giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+      {{hash=DWHF}{%
+         family={Durrant-Whyte},
+         familyi={D\bibinithyphendelim W\bibinitperiod},
+         given={Hugh\bibnamedelima F},
+         giveni={H\bibinitperiod\bibinitdelim F\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LJJDWHF1}
+    \strng{fullhash}{LJJDWHF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{1991}
+    \field{labeldatesource}{}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{number}{3}
+    \field{pages}{376\bibrangedash 382}
+    \field{title}{Mobile robot localization by tracking geometric beacons}
+    \field{volume}{7}
+    \field{journaltitle}{IEEE Transactions on robotics and Automation}
+    \field{year}{1991}
+  \endentry
+
+  \entry{thrun2005probabilistic}{book}{}
+    \name{author}{3}{}{%
+      {{hash=TS}{%
+         family={Thrun},
+         familyi={T\bibinitperiod},
+         given={Sebastian},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=BW}{%
+         family={Burgard},
+         familyi={B\bibinitperiod},
+         given={Wolfram},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=FD}{%
+         family={Fox},
+         familyi={F\bibinitperiod},
+         given={Dieter},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MIT Press}%
+    }
+    \strng{namehash}{TS+1}
+    \strng{fullhash}{TSBWFD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{labelyear}{2005}
+    \field{labeldatesource}{}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{isbn}{978-0-262-20162-9}
+    \field{pages}{I\bibrangedash XX, 1\bibrangedash 647}
+    \field{series}{Intelligent robotics and autonomous agents}
+    \field{title}{Probabilistic robotics.}
+    \field{year}{2005}
+  \endentry
+\enddatalist
+\endinput
