@@ -1,0 +1,210 @@
+\clearpage
+\pagestyle{empty}
+
+% Setting margin for cover page
+\newgeometry{top=3cm,bottom=3cm,left=3cm,right=3cm}
+
+% Use Times font for cover page as per the thesis document guidelines
+%{\fontfamily{ptm}\selectfont%
+\begin{center}
+    
+    \smallskip
+	\renewcommand{\baselinestretch}{1}
+	
+    \large{\bfseries \MakeUppercase{\thetitle}}
+    \\[5\baselineskip]
+
+    \large{\bfseries \JenisDokumen}
+    \\[\baselineskip]
+	
+    \normalsize{ \bfseries
+    	Karya tulis sebagai salah satu syarat\\
+    	untuk memperoleh gelar \Strata dari\\
+    	Institut Teknologi Bandung
+	}
+    \\[3\baselineskip]
+
+    \normalsize{ \bfseries Oleh\\}
+    \large{ 
+    	\bfseries \MakeUppercase{\theauthor}\\
+    	(\StudyProgram)
+	}
+
+    \vfill
+    \begin{figure}[h]
+        \centering
+      	\includegraphics[height=3.5cm,keepaspectratio]{resources/cover-ganesha.jpg}
+    \end{figure}
+    \vfill
+
+    \large{ \bfseries
+	    \uppercase{
+	        Institut Teknologi Bandung\\
+	    }
+    	\ThesisMonth~\ThesisYear
+	}
+
+\end{center}
+%}%
+
+\restoregeometry
+\clearpage
+
+\clearpage
+\chapter*{Abstrak}
+\addcontentsline{toc}{chapter}{ABSTRAK}
+
+\begin{center}
+	\linespread{1}
+	\large{\bfseries{
+			\MakeUppercase\thetitle
+		}
+	}\\[1\baselineskip]
+	\normalsize{Oleh\\}
+	\large{ 
+		\bfseries \theauthor\\
+		(Program Studi Sarjana Teknik Biomedis)
+	}\\[2\baselineskip]
+\end{center}
+\begin{spacing}{1.0}
+	%taruh abstrak bahasa indonesia di sini
+	\blindtext
+	
+	\blindtext
+	\\[1.67\baselineskip]
+	Kata kunci: pertama, kedua, ketiga.
+\end{spacing}
+
+\clearpage
+
+\clearpage
+\chapter*{Abstract}
+\addcontentsline{toc}{chapter}{\textit{ABSTRACT}}
+
+\begin{center}
+	\linespread{1}
+	\large{\bfseries{
+			\MakeUppercase{\textit{Judul dalam Bahasa Inggris}}
+		}
+	}\\[1\baselineskip]
+	\normalsize{By\\}
+	\large{ 
+		\bfseries \theauthor\\
+		(Undergraduate Program in Biomedical Engineering)
+	}\\[2\baselineskip]
+\end{center}
+\begin{spacing}{1.0}
+	%taruh abstrak bahasa inggris di sini bila diperlukan
+	\itshape{
+		\blindtext
+		
+		\blindtext
+		\\[1.67\baselineskip]
+		Keywords: first, second, third.
+	}
+\end{spacing}
+
+\clearpage
+\clearpage
+\pagestyle{empty}
+
+\begin{center}
+	\renewcommand{\baselinestretch}{1}
+    \large{\bfseries \MakeUppercase{\thetitle}}
+    \\[2\baselineskip]
+	
+    \normalsize{Oleh\\
+    \textbf{\theauthor}\\
+    \textbf{(Program Studi Sarjana Teknik Biomedis)}
+    \\[\baselineskip]
+    Institut Teknologi Bandung}
+    \\[3\baselineskip]
+
+    \normalsize{Menyetujui\\
+    Tim Pembimbing
+    \\[\baselineskip]
+    
+    Tanggal \thedate\\[2\baselineskip]
+    Ketua\\[4\baselineskip]
+    \rule{5cm}{0.4pt} \\
+    Nama dan Gelar Pembimbing\\
+    NIP. 123456789}
+
+\end{center}
+\clearpage
+\clearpage
+\pagestyle{empty}
+
+\begin{center}    
+	\renewcommand{\baselinestretch}{1}
+    \large{\bfseries \MakeUppercase{\thetitle}}
+    \\[2\baselineskip]
+
+    \normalsize{Oleh\\
+    	\textbf{\theauthor}\\
+    	\textbf{(Program Studi Sarjana Teknik Biomedis)}
+    	\\[\baselineskip]
+    	Institut Teknologi Bandung}
+    \\[3\baselineskip]
+    
+    
+    \normalsize{Menyetujui\\
+    	Tim Pembimbing
+    	\\[\baselineskip]
+    	Tanggal \thedate\\[3\baselineskip]
+    	Ketua\\[4\baselineskip]
+    	\underline{Nama dan Gelar Pembimbing}\\
+    	NIP. 123456789}
+    \\[2\baselineskip]
+    
+    \normalsize{%
+    \setlength{\tabcolsep}{12pt}
+    \begin{tabular}{c@{\hskip 0.5in}c}
+    	Anggota & Anggota \\
+    	& \\
+    	& \\
+    	& \\
+    	& \\
+    	\underline{Nama dan Gelar Pembimbing I} & \underline{Nama dan Gelar Pembimbing II} \\
+    	NIP. 123456789 & NIP. 123456789 \\
+    \end{tabular}
+    }
+
+\end{center}
+\clearpage
+
+\clearpage
+\chapter*{Pernyataan Bebas Plagiarisme}
+\addcontentsline{toc}{chapter}{PERNYATAAN BEBAS PLAGIARISME}
+
+Saya yang bertanda tangan di bawah ini menyatakan dengan sebenarnya bahwa Tugas Akhir ini adalah murni karya saya sendiri dan bukan plagiasi sebagian atau keseluruhan dari karya orang lain sesuai dengan peraturan yang berlaku di Institut Teknologi Bandung.
+
+Apabila di kemudian hari terbukti bahwa pekerjaan Tugas Akhir saya ini merupakan plagiasi karya orang lain, saya akan bertanggung jawab sepenuhnya dan sanggup menerima sanksi akademik sesuai peraturan akademik Institut Teknologi Bandung.
+\\[\baselineskip]
+
+\hfill
+\parbox{5.5cm}{
+	Bandung, \thedate \\[2\baselineskip]
+	Irfan Tito Kurniawan \\
+	NIM 18317019
+}
+
+
+\clearpage
+\chapter*{Pedoman Penggunaan Tugas Akhir}
+\addcontentsline{toc}{chapter}{PEDOMAN PENGGUNAAN TUGAS AKHIR}
+
+Tugas Akhir Sarjana yang tidak dipublikasikan terdaftar dan tersedia di Perpustakaan Institut Teknologi Bandung, dan terbuka untuk umum dengan ketentuan bahwa hak cipta ada pada penulis dengan mengikuti aturan HaKI yang berlaku di Institut Teknologi Bandung. Referensi kepustakaan diperkenankan dicatat, tetapi pengutipan atau peringkasan hanya dapat dilakukan seizin penulis dan harus disertai dengan kaidah ilmiah untuk menyebutkan sumbernya.
+
+Sitasi hasil penelitian Tugas Akhir ini dapat ditulis dalam bahasa Indonesia sebagai berikut:
+
+\hangindent=1.27cm Kurniawan, Irfan Tito. (\the\year): \textit{\thetitle}, Tugas Akhir Program Sarjana, Institut Teknologi Bandung
+
+dan dalam bahasa Inggris sebagai berikut:
+
+\hangindent=1.27cm Kurniawan, Irfan Tito. (\the\year): \textit{Biomedical Engineering Thesis Template}, Undergraduate Final Year Project, Institut Teknologi Bandung
+
+Memperbanyak atau menerbitkan sebagian atau seluruh Tugas Akhir haruslah seizin Dekan Sekolah Teknik Elektro dan Informatika, Institut Teknologi Bandung.
+
+\clearpage
+
