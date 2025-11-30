@@ -46,5 +46,17 @@
   },
   "manus_I.qmd": {
     "manus_I.html": "00aeb6f3"
+  },
+  "manus_1/index.qmd": {
+    "index.html": "81d51312"
+  },
+  "manus_1/intro.qmd": {
+    "intro.html": "78bc4c48"
+  },
+  "manus_1/references.qmd": {
+    "references.html": "f2b6544c"
+  },
+  "manus_1/summary.qmd": {
+    "summary.html": "dd5ed806"
   }
 }

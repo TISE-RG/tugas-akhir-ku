@@ -1,5 +1,3 @@
----
-title: Manuskrip Original
----
+# Manuskrip I Original
 
-[Gagasan](./01_work/manus_I_0.qmd)
+Gagasan
