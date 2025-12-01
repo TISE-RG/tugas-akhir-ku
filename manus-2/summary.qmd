@@ -1,0 +1,227 @@
+---
+title: "Ten Best Graphviz Diagram Examples"
+format: html
+---
+
+# Introduction
+
+Graphviz provides exceptional power for expressing structures, flows, and relationships.  
+This essay demonstrates ten of the most useful Graphviz diagram types, each shown in figures such as the simple block diagram in @fig-block and the hierarchical tree in @fig-tree.
+
+Throughout the text, we reference diagrams using Quarto’s cross-referencing syntax (e.g., @fig-network, @fig-state), enabling clean academic writing.
+
+---
+
+# 1. Simple Signal–System Block Diagram
+
+A minimal left-to-right block diagram is shown in @fig-block.
+
+```{dot}
+//| label: fig-block
+//| fig-cap: "Simple Signal–System Block Diagram"
+digraph G {
+  rankdir=LR;
+  node [shape=none, fontname="Helvetica", fontsize=14];
+  x[label="x(t)"];
+  H[shape=box, style="rounded,filled", fillcolor=lightgrey, label="System H"];
+  y[label="y(t)"];
+  x -> H -> y;
+}
+````
+
+---
+
+# 2. Hierarchical Tree (Top-Down)
+
+Graphviz excels at hierarchical structures, such as the organizational tree in @fig-tree.
+
+```{dot}
+#| label: fig-tree
+#| fig-cap: "Hierarchical Tree Diagram (Top–Down)"
+digraph Org {
+  rankdir=TB;
+  node [shape=box, style=rounded];
+  CEO -> {CTO CFO COO};
+  CTO -> {Engineering IT};
+  CFO -> {Finance Accounting};
+  COO -> {Operations Logistics};
+}
+```
+
+---
+
+# 3. Directed Workflow Diagram
+
+The pipeline workflow in @fig-workflow shows a multi-stage process.
+
+```{dot}
+#| label: fig-workflow
+#| fig-cap: "Directed Workflow Pipeline"
+digraph Pipeline {
+  rankdir=LR;
+  node [shape=box, style=rounded];
+  A[label="Input"];
+  B[label="Filtering"];
+  C[label="Transformation"];
+  D[label="Output"];
+  A -> B -> C -> D;
+}
+```
+
+---
+
+# 4. Decision Diagram
+
+A branching decision structure is presented in @fig-decision.
+
+```{dot}
+#| label: fig-decision
+#| fig-cap: "Decision Diagram with Branching Paths"
+digraph Decision {
+  rankdir=TB;
+  node [shape=diamond, style=filled, fillcolor=lightblue];
+  D[label="Condition?"];
+  node [shape=box, style=rounded, fillcolor=white];
+  Yes[label="Proceed"];
+  No[label="Stop"];
+  D -> Yes [label="Yes"];
+  D -> No  [label="No"];
+}
+```
+
+---
+
+# 5. Undirected Network Graph
+
+Graphviz can model networks such as the undirected cluster in @fig-network.
+
+```{dot}
+#| label: fig-network
+#| fig-cap: "Undirected Network Graph Showing Connections"
+graph Network {
+  node [shape=circle, style=filled, fillcolor=lightyellow];
+  A -- B -- C -- D -- A;
+  B -- E -- C;
+}
+```
+
+---
+
+# 6. State Machine Diagram
+
+The state transition model in @fig-state illustrates system behavior.
+
+```{dot}
+#| label: fig-state
+#| fig-cap: "Finite State Machine with Error Recovery"
+digraph FSM {
+  rankdir=LR;
+  node [shape=circle];
+  Idle -> Running [label="start"];
+  Running -> Idle [label="stop"];
+  Running -> Error [label="fault"];
+  Error -> Idle [label="reset"];
+}
+```
+
+---
+
+# 7. Clustered Graph (Subsystem Grouping)
+
+Clustering helps show subsystems; see @fig-cluster.
+
+```{dot}
+#| label: fig-cluster
+#| fig-cap: "Clustered Graph Showing Subsystems"
+digraph Clustered {
+  rankdir=LR;
+  node [shape=box];
+
+  subgraph cluster_A {
+    label="Subsystem A";
+    style=filled;
+    color=lightgrey;
+    A1; A2; A3;
+  }
+
+  subgraph cluster_B {
+    label="Subsystem B";
+    style=filled;
+    color=lightblue;
+    B1; B2;
+  }
+
+  A1 -> B1;
+  A2 -> B2;
+}
+```
+
+---
+
+# 8. Bipartite Graph
+
+A classic bipartite structure is illustrated in @fig-bipartite.
+
+```{dot}
+#| label: fig-bipartite
+#| fig-cap: "Bipartite Graph with Two Disjoint Node Sets"
+graph Bipartite {
+  rankdir=LR;
+  node [shape=circle];
+
+  {rank=same; A1; A2; A3;}
+  {rank=same; B1; B2;}
+
+  A1 -- B1;
+  A2 -- B1;
+  A3 -- B2;
+}
+```
+
+---
+
+# 9. DAG (Directed Acyclic Graph)
+
+The DAG in @fig-dag is useful for tasks, scheduling, or dependencies.
+
+```{dot}
+#| label: fig-dag
+#| fig-cap: "Directed Acyclic Graph for Dependency Modeling"
+digraph DAG {
+  rankdir=TB;
+  node [shape=box, style=rounded];
+  A -> B -> D;
+  A -> C -> D;
+  B -> E;
+  C -> E;
+}
+```
+
+---
+
+# 10. Flow Network with Edge Capacities
+
+Flow networks visualize constraints; the example is shown in @fig-flow.
+
+```{dot}
+#| label: fig-flow
+#| fig-cap: "Flow Network with Edge Capacities"
+digraph Flow {
+  rankdir=LR;
+  node [shape=circle];
+  A -> B [label="3"];
+  A -> C [label="2"];
+  B -> D [label="2"];
+  C -> D [label="3"];
+  B -> C [label="1"];
+}
+```
+
+---
+
+# Conclusion
+
+These ten Graphviz examples—ranging from basic block diagrams (e.g., @fig-block) to sophisticated cluster graphs (@fig-cluster) and dependency DAGs (@fig-dag)—show how expressive DOT is when embedded in Quarto.
+
+Graphviz offers clarity, precision, and automation that make it invaluable for engineering, system design, data modeling, and conceptual explanation.
+

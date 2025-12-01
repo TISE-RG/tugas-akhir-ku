@@ -1,0 +1,178 @@
+---
+title: "An Essay with Integrated Code, Diagrams, Tables, Equations, and Images"
+format:
+  html:
+    code-fold: false
+  pdf:
+    documentclass: article
+execute:
+  echo: true
+  freeze: auto
+---
+# Introduction
+
+This is a book created from markdown and executable code.
+
+See @knuth84 for additional discussion of literate programming.
+
+
+Modern scientific and engineering communication benefits from a **blend of media**:  
+plots produced by code, structural diagrams, numerical tables, mathematical equations, and illustrative images.  
+
+In this short essay we demonstrate how a Quarto document can integrate:
+
+- a Python-generated plot (@fig-sine),
+- a Mermaid diagram (@fig-flow),
+- a data table (@tbl-stats),
+- a mathematical equation with a label (@eq-gauss),
+- and an external picture (@fig-photo).
+
+Each element is encapsulated in its own block, given a caption, and cross-referenced in the text.
+
+
+
+# 1. Python Plots for Quantitative Insight
+
+Numerical phenomena are often best understood visually.  
+In @fig-sine, we use a Python code block to generate a simple plot of a sine wave and its noisy variant.  
+This kind of plot is typical in courses on signals and systems, time-series analysis, and scientific computing.
+
+```{python}
+#| label: fig-sine
+#| fig-cap: "Sine wave and noisy observation generated using Python and Matplotlib."
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Generate data
+t = np.linspace(0, 2*np.pi, 200)
+x = np.sin(t)
+noise = 0.2 * np.random.randn(len(t))
+y = x + noise
+
+# Create plot
+plt.figure()
+plt.plot(t, x, label="Clean sine x(t)")
+plt.plot(t, y, ".", label="Noisy samples y(t)")
+plt.xlabel("t (radians)")
+plt.ylabel("Amplitude")
+plt.legend()
+plt.tight_layout()
+```
+
+The code in @fig-sine not only produces a figure but also documents the process.
+Because it lives in the same document as the explanation, it strongly supports reproducible research.
+
+
+
+# 2. Mermaid Diagrams for Conceptual Structure
+
+While Python plots excel at quantitative views, **Mermaid diagrams** provide concise visualizations of **conceptual flows and system structure**.
+
+In @fig-flow we use a Mermaid flowchart to represent a simple data-processing pipeline, echoing the kind of workflow that might use the data generated in @fig-sine.
+
+:::{#fig-flow}
+```{mermaid}
+
+flowchart LR
+    A[Raw Data] --> B[Preprocessing]
+    B --> C[Modeling]
+    C --> D[Evaluation]
+    D --> E[Report & Visualization]
+```
+Mermaid flowchart illustrating a simple data processing pipeline.
+:::
+
+The structure in @fig-flow complements the numerical view in @fig-sine:
+one shows *what the data look like*, the other shows *what we do with the data*.
+
+
+
+# 3. Tables for Compact Numerical Summaries
+
+Sometimes a **compact tabular summary** is more useful than a figure.
+In @tbl-stats we compute basic statistics from the same sine–noise data used in @fig-sine.
+Here we rely on Python again, but this time the result is rendered as a table instead of a plot.
+
+```{python}
+#| label: tbl-stats
+#| tbl-cap: "Summary statistics for the clean signal x(t) and noisy observation y(t)."
+import pandas as pd
+import numpy as np
+
+stats = {
+    "series": ["x(t) clean", "y(t) noisy"],
+    "mean": [np.mean(x), np.mean(y)],
+    "std": [np.std(x), np.std(y)],
+    "min": [np.min(x), np.min(y)],
+    "max": [np.max(x), np.max(y)]
+}
+
+df_stats = pd.DataFrame(stats)
+df_stats
+```
+
+The table @tbl-stats complements @fig-sine by giving numerical values for mean, standard deviation, and range.
+Together they allow the reader to both **see** and **measure** the effect of noise on the signal.
+
+
+
+# 4. Equations for Analytical Foundations
+
+Behind the numerical experiments in @fig-sine and the workflow in @fig-flow lies a rich **analytical foundation**.
+Equations provide a precise language for expressing models and assumptions.
+
+For example, the well-known **Gaussian probability density function** can be written as:
+
+$$
+f(x) = \frac{1}{\sqrt{2\pi\sigma^2}}
+\exp!\left(
+-,\frac{(x - \mu)^2}{2\sigma^2}
+\right)
+$${#eq-gauss}
+
+Equation @eq-gauss is frequently used to model noise such as the perturbations added to the sine wave in @fig-sine.
+By referring directly to @eq-gauss in the text, we connect the **mathematical model**, the **simulation code**, and the **visual outputs** in a single narrative.
+
+
+
+# 5. Images for Context and Intuition
+
+Finally, **photographs and other images** can add context, intuition, or aesthetic value that diagrams and equations alone cannot provide.
+Consider @fig-photo, which you might imagine as an illustration of a data-collection setting (for instance, a sensor observing a natural environment).
+
+> **Note:** Replace the file path below (`images/mountains.jpg`) with any real image in your project directory.
+
+![Illustrative photograph suggesting a measurement environment, e.g., sensors observing a physical system.](images/mountains.jpg){#fig-photo}
+
+Figure @fig-photo can be used to anchor the abstract discussion of signals, systems, and models in a concrete, physical setting.
+The same document thus ties together **real-world context** (@fig-photo), **system structure** (@fig-flow), **data behavior** (@fig-sine), **numerical summaries** (@tbl-stats), and **analytical formulas** (@eq-gauss).
+
+
+
+# Conclusion
+
+In this essay we have demonstrated how a single Quarto document can blend:
+
+* **Python plots** for numerical intuition (@fig-sine),
+* **Mermaid diagrams** for conceptual workflows (@fig-flow),
+* **Tables** for compact quantitative summaries (@tbl-stats),
+* **Equations** for mathematical rigor (@eq-gauss),
+* **Images** for real-world context (@fig-photo).
+
+By encapsulating each element in a block with a caption and cross-referencing it from the text, Quarto encourages **coherent, literate, and reproducible** technical writing.
+
+The same pattern can be extended to larger projects: lecture notes, research articles, technical reports, or even books—always keeping **code, narrative, and visuals** in one unified, executable manuscript.
+
+~~~~
+
+# Preface {.unnumbered}
+
+This is a Quarto book.
+
+To learn more about Quarto books visit <https://quarto.org/docs/books>.
+
+
+# References {.unnumbered}
+
+::: {#refs}
+:::

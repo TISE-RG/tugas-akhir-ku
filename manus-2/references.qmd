@@ -1,0 +1,315 @@
+---
+title: "Ten PlantUML Diagram Examples in Quarto"
+format: html
+---
+
+# Introduction
+
+PlantUML is a powerful, text-based diagramming tool that integrates well with Quarto.  
+With a few lines of code, we can include rich diagrams such as **sequence**, **use case**, **class**, **activity**, **state**, **component**, **deployment**, **object**, **timing**, and **package** diagrams.
+
+In this short essay, we illustrate ten of the most useful PlantUML diagram types for technical and engineering documentation.  
+Each figure—such as the sequence diagram in @fig-seq and the deployment diagram in @fig-deploy—is defined using a `plantuml` code block and referenced in the surrounding text using Quarto’s cross-referencing system.
+
+
+
+# 1. Sequence Diagram
+
+Sequence diagrams capture **time-ordered interactions** between participants.  
+In @fig-seq, a user interacts with a web application and an authentication service during login.
+
+```{plantuml}
+#| label: fig-seq
+#| fig-cap: "Sequence Diagram for a User Login Flow"
+@startuml
+actor User
+participant "Web App" as Web
+participant "Auth Service" as Auth
+
+User -> Web: Open login page
+User -> Web: Submit credentials
+Web  -> Auth: Verify(email, password)
+Auth --> Web: Token / Error
+Web  --> User: Dashboard / Error message
+@enduml
+````
+
+
+
+# 2. Use Case Diagram
+
+Use case diagrams show **system functionality as perceived by actors**.
+In @fig-usecase, we see a user interacting with an authentication system.
+
+```{plantuml}
+#| label: fig-usecase
+#| fig-cap: "Use Case Diagram for an Authentication System"
+@startuml
+left to right direction
+
+actor User
+
+rectangle "Authentication System" {
+  usecase "Log in" as UC1
+  usecase "Reset password" as UC2
+}
+
+User --> UC1
+User --> UC2
+@enduml
+```
+
+
+
+# 3. Class Diagram
+
+Class diagrams depict **static structure**: classes, attributes, operations, and relationships.
+Figure @fig-class shows a simple domain model for users, sessions, and an authentication service.
+
+```{plantuml}
+#| label: fig-class
+#| fig-cap: "Class Diagram for a Simple Authentication Domain Model"
+@startuml
+class User {
+  +id: int
+  +name: string
+  +email: string
+  +login()
+}
+
+class Session {
+  +token: string
+  +expiresAt: Date
+}
+
+class AuthService {
+  +authenticate(email, password)
+}
+
+User "1" -- "0..*" Session
+AuthService ..> User
+AuthService ..> Session
+@enduml
+```
+
+
+
+# 4. Activity Diagram
+
+Activity diagrams show **workflows and control flow**.
+In @fig-activity, we model the steps of order processing, including validation, inventory reservation, and payment.
+
+```{plantuml}
+#| label: fig-activity
+#| fig-cap: "Activity Diagram for Order Processing"
+@startuml
+start
+:Receive order;
+:Validate order;
+
+if (Valid?) then (yes)
+  :Reserve inventory;
+  :Process payment;
+  if (Payment ok?) then (yes)
+    :Confirm order;
+  else (no)
+    :Notify payment failure;
+  endif
+else (no)
+  :Reject order;
+endif
+
+stop
+@enduml
+```
+
+
+
+# 5. State Machine Diagram
+
+State machine diagrams represent **system states and transitions**.
+In @fig-state, an order moves from creation to delivery, with rejection and completion paths.
+
+```{plantuml}
+#| label: fig-state
+#| fig-cap: "State Machine Diagram for an Order Lifecycle"
+@startuml
+[*] --> New
+
+New --> Approved : approve()
+New --> Rejected : reject()
+
+Approved --> Shipped : ship()
+Shipped  --> Delivered : deliver()
+
+Rejected --> [*]
+Delivered --> [*]
+@enduml
+```
+
+
+
+# 6. Component Diagram
+
+Component diagrams show **logical components** and their interfaces.
+The web architecture in @fig-component highlights the separation between frontend, API gateway, user service, and the database.
+
+```{plantuml}
+#| label: fig-component
+#| fig-cap: "Component Diagram for a Web Application Architecture"
+@startuml
+component "Web Frontend" as FE
+component "API Gateway"  as API
+component "User Service" as US
+database  "User DB"      as DB
+
+FE  --> API : HTTP/JSON
+API --> US  : REST
+US  --> DB  : SQL
+@enduml
+```
+
+
+
+# 7. Deployment Diagram
+
+Deployment diagrams focus on **where components run**.
+In @fig-deploy, we show a browser running on a user device, connecting through the internet to a cloud-based web and API stack.
+
+```{plantuml}
+#| label: fig-deploy
+#| fig-cap: "Deployment Diagram for a Cloud-Hosted Web System"
+@startuml
+node "User Device" {
+  artifact "Browser"
+}
+
+node "Internet"
+
+node "Cloud" {
+  node "Web Server" {
+    artifact "Web App"
+  }
+  node "App Server" {
+    artifact "API Service"
+  }
+}
+
+Browser --> "Web App"
+"Web App" --> "API Service"
+@enduml
+```
+
+
+
+# 8. Object Diagram
+
+Object diagrams capture **snapshots of instances** at runtime.
+Figure @fig-object depicts one user, a shopping cart, and multiple items.
+
+```{plantuml}
+#| label: fig-object
+#| fig-cap: "Object Diagram Representing a Shopping Cart Instance"
+@startuml
+object user1 {
+  id   = 42
+  name = "Alice"
+}
+
+object cart1 {
+  total = 150.00
+}
+
+object item1 {
+  sku = "B001"
+  qty = 2
+}
+
+object item2 {
+  sku = "C777"
+  qty = 1
+}
+
+user1 -- cart1
+cart1 -- item1
+cart1 -- item2
+@enduml
+```
+
+
+
+# 9. Timing Diagram
+
+Timing diagrams show **state changes over time** for different participants.
+In @fig-timing, the client and server transition through phases of a request–response cycle.
+
+```{plantuml}
+#| label: fig-timing
+#| fig-cap: "Timing Diagram for a Simple Request–Response Protocol"
+@startuml
+robust "Client" as C
+robust "Server" as S
+
+@0
+C is Idle
+S is Idle
+
+@10
+C is Sending
+
+@20
+S is Processing
+
+@30
+C is Waiting
+
+@40
+S is Responding
+
+@50
+C is Idle
+S is Idle
+@enduml
+```
+
+
+
+# 10. Package Diagram
+
+Package diagrams help **organize code into modules**.
+In @fig-package, we show a project divided into `Core` and `UI` packages with their key classes and dependencies.
+
+```{plantuml}
+#| label: fig-package
+#| fig-cap: "Package Diagram Organizing a Project into Core and UI Layers"
+@startuml
+package "Project" {
+  package "Core" {
+    class Engine
+    class Model
+  }
+  package "UI" {
+    class View
+    class Controller
+  }
+}
+
+Engine --> Model
+Controller --> Engine
+View --> Controller
+@enduml
+```
+
+
+
+# Conclusion
+
+The ten PlantUML diagrams in this essay—sequence (@fig-seq), use case (@fig-usecase), class (@fig-class), activity (@fig-activity), state machine (@fig-state), component (@fig-component), deployment (@fig-deploy), object (@fig-object), timing (@fig-timing), and package (@fig-package)—cover a broad spectrum of modeling needs.
+
+Combining PlantUML with Quarto allows you to keep diagrams **version-controlled, reproducible, and close to your prose**, making it ideal for teaching notes, software documentation, and research reports.
+
+
+# References {.unnumbered}
+
+::: {#refs}
+:::
